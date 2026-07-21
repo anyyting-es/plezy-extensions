@@ -1,0 +1,35 @@
+[
+  {
+    "id": "animeav1",
+    "name": "AnimeAV1",
+    "version": "1.1.0",
+    "type": "online",
+    "language": "es",
+    "dub": true,
+    "sub": true,
+    "code": "animeav1.js",
+    "icon": "https://animeav1.com/favicon.ico"
+  },
+  {
+    "id": "animetosho",
+    "name": "AnimeTosho",
+    "version": "1.0.2",
+    "type": "torrent",
+    "language": "multi",
+    "dub": false,
+    "sub": true,
+    "code": "animetosho.js",
+    "icon": "https://animetosho.org/favicon.ico"
+  },
+  {
+    "id": "nekobt",
+    "name": "NekoBT",
+    "version": "1.0.0",
+    "type": "torrent",
+    "language": "multi",
+    "dub": false,
+    "sub": true,
+    "code": "nekobt.js",
+    "icon": "https://nekobt.to/favicon.ico"
+  }
+]
