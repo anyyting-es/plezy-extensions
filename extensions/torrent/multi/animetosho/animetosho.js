@@ -1,6 +1,6 @@
 class Provider {
     constructor() {
-        this.url = "https://feed.animetosho.org/json";
+        this.url = "https://feed.animetosho.xyz/feed/json";
     }
 
     _buildQuery(options) {
