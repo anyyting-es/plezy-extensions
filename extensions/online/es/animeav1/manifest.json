@@ -1,0 +1,11 @@
+{
+  "id": "animeav1",
+  "name": "AnimeAV1",
+  "version": "1.1.0",
+  "type": "online",
+  "language": "es",
+  "dub": true,
+  "sub": true,
+  "code": "animeav1.js",
+  "icon": "https://animeav1.com/favicon.ico"
+}

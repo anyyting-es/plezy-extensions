@@ -1,0 +1,11 @@
+{
+  "id": "nekobt",
+  "name": "NekoBT",
+  "version": "1.0.0",
+  "type": "torrent",
+  "language": "multi",
+  "dub": false,
+  "sub": true,
+  "code": "nekobt.js",
+  "icon": "https://nekobt.to/favicon.ico"
+}

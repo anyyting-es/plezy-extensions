@@ -1,0 +1,11 @@
+{
+  "id": "animetosho",
+  "name": "AnimeTosho",
+  "version": "1.0.2",
+  "type": "torrent",
+  "language": "multi",
+  "dub": false,
+  "sub": true,
+  "code": "animetosho.js",
+  "icon": "https://animetosho.org/favicon.ico"
+}
