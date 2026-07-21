@@ -7,7 +7,7 @@
     "language": "es",
     "dub": true,
     "sub": true,
-    "code": "extensions/online/es/animeav1/animeav1.js",
+    "code": "https://raw.githubusercontent.com/anyyting-es/plezy-extensions/main/extensions/online/es/animeav1/animeav1.js",
     "icon": "https://animeav1.com/favicon.ico"
   },
   {
@@ -18,7 +18,7 @@
     "language": "multi",
     "dub": false,
     "sub": true,
-    "code": "extensions/torrent/multi/animetosho/animetosho.js",
+    "code": "https://raw.githubusercontent.com/anyyting-es/plezy-extensions/main/extensions/torrent/multi/animetosho/animetosho.js",
     "icon": "https://animetosho.org/favicon.ico"
   },
   {
@@ -29,7 +29,7 @@
     "language": "multi",
     "dub": false,
     "sub": true,
-    "code": "extensions/torrent/multi/nekobt/nekobt.js",
+    "code": "https://raw.githubusercontent.com/anyyting-es/plezy-extensions/main/extensions/torrent/multi/nekobt/nekobt.js",
     "icon": "https://nekobt.to/favicon.ico"
   }
 ]
