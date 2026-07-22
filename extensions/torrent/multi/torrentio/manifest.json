@@ -1,0 +1,12 @@
+{
+  "id": "torrentio",
+  "name": "Torrentio",
+  "version": "1.0.0",
+  "type": "torrent",
+  "language": "multi",
+  "dub": true,
+  "sub": true,
+  "code": "torrentio.js",
+  "icon": "https://torrentio.strem.fun/favicon.ico",
+  "contentType": "general"
+}

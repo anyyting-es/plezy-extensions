@@ -7,5 +7,6 @@
   "dub": true,
   "sub": true,
   "code": "animeav1.js",
-  "icon": "https://animeav1.com/favicon.ico"
+  "icon": "https://animeav1.com/favicon.ico",
+  "contentType": "anime"
 }

@@ -7,5 +7,6 @@
   "dub": false,
   "sub": true,
   "code": "animetosho.js",
-  "icon": "https://animetosho.org/favicon.ico"
+  "icon": "https://animetosho.org/favicon.ico",
+  "contentType": "anime"
 }

@@ -7,5 +7,6 @@
   "dub": false,
   "sub": true,
   "code": "nekobt.js",
-  "icon": "https://nekobt.to/favicon.ico"
+  "icon": "https://nekobt.to/favicon.ico",
+  "contentType": "anime"
 }
