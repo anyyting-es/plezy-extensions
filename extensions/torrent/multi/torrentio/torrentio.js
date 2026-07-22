@@ -15,16 +15,27 @@ class Provider {
 
             for (const line of lines) {
                 const ln = line.trim();
-                if (ln.includes('👤')) {
-                    seeds = parseInt(ln.replace(/[^\d]/g, '')) || 0;
+                
+                const seedsMatch = ln.match(/(?:👤|👤|\uD83D\uDC64)\s*(\d+)/);
+                if (seedsMatch) {
+                    seeds = parseInt(seedsMatch[1]) || 0;
                 }
-                if (ln.includes('GB') || ln.includes('MB')) {
-                    const match = ln.match(/(\d+\.?\d*)\s*(GB|MB)/i);
-                    if (match) {
-                        const num = parseFloat(match[1]);
-                        size = num * (match[2].toUpperCase() === 'GB' ? 1024 * 1024 * 1024 : 1024 * 1024);
+                
+                const sizeMatch = ln.match(/(?:💾|\uD83D\uDCBE)\s*(\d+\.?\d*)\s*(GB|MB|GiB|MiB|KB|KiB|B)/i);
+                if (sizeMatch) {
+                    const num = parseFloat(sizeMatch[1]);
+                    const unit = sizeMatch[2].toUpperCase();
+                    if (unit.startsWith('G')) {
+                        size = num * 1024 * 1024 * 1024;
+                    } else if (unit.startsWith('M')) {
+                        size = num * 1024 * 1024;
+                    } else if (unit.startsWith('K')) {
+                        size = num * 1024;
+                    } else {
+                        size = num;
                     }
                 }
+                
                 if (ln.toLowerCase().includes('1080p')) quality = '1080p';
                 else if (ln.toLowerCase().includes('2160p') || ln.toLowerCase().includes('4k')) quality = '4K';
                 else if (ln.toLowerCase().includes('720p')) quality = '720p';
