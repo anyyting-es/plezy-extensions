@@ -8,8 +8,7 @@
     "dub": true,
     "sub": true,
     "code": "https://raw.githubusercontent.com/anyyting-es/plezy-extensions/main/extensions/online/es/animeav1/animeav1.js",
-    "icon": "https://animeav1.com/favicon.ico",
-    "contentType": "anime"
+    "icon": "https://animeav1.com/favicon.ico"
   },
   {
     "id": "animetosho",
@@ -20,8 +19,7 @@
     "dub": false,
     "sub": true,
     "code": "https://raw.githubusercontent.com/anyyting-es/plezy-extensions/main/extensions/torrent/multi/animetosho/animetosho.js",
-    "icon": "https://animetosho.org/favicon.ico",
-    "contentType": "anime"
+    "icon": "https://animetosho.org/favicon.ico"
   },
   {
     "id": "nekobt",
@@ -32,8 +30,7 @@
     "dub": false,
     "sub": true,
     "code": "https://raw.githubusercontent.com/anyyting-es/plezy-extensions/main/extensions/torrent/multi/nekobt/nekobt.js",
-    "icon": "https://nekobt.to/favicon.ico",
-    "contentType": "anime"
+    "icon": "https://nekobt.to/favicon.ico"
   },
   {
     "id": "torrentio",
@@ -43,8 +40,7 @@
     "language": "multi",
     "dub": true,
     "sub": true,
-    "code": "",
-    "icon": "https://torrentio.strem.fun/favicon.ico",
-    "contentType": "general"
+    "code": "https://raw.githubusercontent.com/anyyting-es/plezy-extensions/main/extensions/torrent/multi/torrentio/torrentio.js",
+    "icon": "https://torrentio.strem.fun/favicon.ico"
   }
 ]
