@@ -1,0 +1,10 @@
+{
+  "id": "manhwaweb",
+  "name": "ManhwaWeb",
+  "version": "1.0.0",
+  "type": "online",
+  "language": "es",
+  "code": "manhwaweb.js",
+  "icon": "https://manhwaweb.com/favicon.ico",
+  "contentType": "manga"
+}
