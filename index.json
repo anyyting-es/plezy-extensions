@@ -11,6 +11,17 @@
     "icon": "https://animeav1.com/favicon.ico"
   },
   {
+    "id": "manhwaweb",
+    "name": "ManhwaWeb",
+    "version": "1.0.0",
+    "type": "online",
+    "language": "es",
+    "dub": false,
+    "sub": false,
+    "code": "https://raw.githubusercontent.com/anyyting-es/plezy-extensions/main/extensions/online/es/manhwaweb/manhwaweb.js",
+    "icon": "https://manhwaweb.com/favicon.ico"
+  },
+  {
     "id": "animetosho",
     "name": "AnimeTosho",
     "version": "1.0.2",
@@ -42,16 +53,5 @@
     "sub": true,
     "code": "https://raw.githubusercontent.com/anyyting-es/plezy-extensions/main/extensions/torrent/multi/torrentio/torrentio.js",
     "icon": "https://torrentio.strem.fun/favicon.ico"
-  },
-  {
-    "id": "manhwaweb",
-    "name": "ManhwaWeb",
-    "version": "1.0.0",
-    "type": "online",
-    "language": "es",
-    "dub": false,
-    "sub": true,
-    "code": "https://raw.githubusercontent.com/anyyting-es/plezy-extensions/main/extensions/online/es/manhwaweb/manhwaweb.js",
-    "icon": "https://manhwaweb.com/favicon.ico"
   }
 ]
