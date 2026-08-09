@@ -277,9 +277,10 @@ class Provider {
 
         const url = `${this.baseUrl}/catalogo/__data.json?page=1&search=${encodeURIComponent(query)}`;
         const res = await this.fetchWithRetry(url);
-        if (!res.ok) return [];
+        if (res.status < 200 || res.status >= 300) return [];
 
-        const results = this._resolveRemixData(res.json(), isDub);
+        const json = await res.json();
+        const results = this._resolveRemixData(json, isDub);
         this.keep(key, results);
 
         return results;
@@ -399,9 +400,9 @@ class Provider {
 
         try {
             const res = await this.fetchWithRetry(url);
-            if (!res.ok) throw new Error("Error fetching episodes");
+            if (res.status < 200 || res.status >= 300) throw new Error("Error fetching episodes");
 
-            const json = res.json();
+            const json = await res.json();
             const nodes = json.nodes || [];
 
             let data = null;
@@ -501,9 +502,9 @@ class Provider {
         if (cached) return cached;
 
         const res = await this.fetchWithRetry(`${this.baseUrl}/media/${slug}/${number}/__data.json`);
-        if (!res.ok) return null;
+        if (res.status < 200 || res.status >= 300) return null;
 
-        const json = res.json();
+        const json = await res.json();
 
         for (const node of json?.nodes || []) {
             if (!node?.data) continue;
