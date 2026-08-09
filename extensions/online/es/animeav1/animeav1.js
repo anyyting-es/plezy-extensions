@@ -632,7 +632,10 @@ class Provider {
                         ]
                     };
                 } else {
-                    return playUrl;
+                    return {
+                        url: playUrl,
+                        headers: HLS_HEADERS
+                    };
                 }
             }
 
