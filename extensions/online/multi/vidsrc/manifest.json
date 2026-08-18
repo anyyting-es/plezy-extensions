@@ -1,0 +1,11 @@
+{
+  "id": "vidsrc",
+  "name": "VidSrc",
+  "version": "1.0.0",
+  "type": "online",
+  "language": "multi",
+  "dub": true,
+  "sub": true,
+  "code": "vidsrc.js",
+  "icon": "https://vidsrc.cc/favicon.ico"
+}

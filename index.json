@@ -22,6 +22,17 @@
     "icon": "https://manhwaweb.com/favicon.ico"
   },
   {
+    "id": "vidsrc",
+    "name": "VidSrc",
+    "version": "1.0.0",
+    "type": "online",
+    "language": "multi",
+    "dub": true,
+    "sub": true,
+    "code": "https://raw.githubusercontent.com/anyyting-es/plezy-extensions/main/extensions/online/multi/vidsrc/vidsrc.js",
+    "icon": "https://vidsrc.cc/favicon.ico"
+  },
+  {
     "id": "animetosho",
     "name": "AnimeTosho",
     "version": "1.0.2",
