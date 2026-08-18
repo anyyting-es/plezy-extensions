@@ -27,6 +27,22 @@ class Provider {
     // ---------------------------------------------------------------- search
 
     async search(query, isDub) {
+        if (query.startsWith("tmdb:")) {
+            const parts = query.split(":");
+            const tmdbId = parts[1];
+            const type = parts[2];
+            const season = parts[3] ? parseInt(parts[3], 10) : 1;
+            
+            const slug = type === "movie" ? `movie:${tmdbId}` : `tv:${tmdbId}:${season}`;
+            return [{
+                id: slug,
+                slug: slug,
+                title: "Direct TMDB Stream",
+                year: null,
+                image: ""
+            }];
+        }
+
         try {
             const url = `https://api.themoviedb.org/3/search/multi?api_key=${this.apiKey}&query=${encodeURIComponent(query)}&language=es-MX`;
             const res = await fetch(url);
